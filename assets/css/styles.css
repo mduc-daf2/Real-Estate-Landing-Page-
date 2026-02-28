@@ -103,7 +103,7 @@ a {
     font-size: 1.8rem;
     line-height: 1.5;
     letter-spacing: 0.01em;
-    color: #687691;
+    color: #687690;
 }
 
 .hero .title {
@@ -155,10 +155,22 @@ a {
 }
 
 .clients .images {
-    margin-top: 96px;
+    margin-top: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.clients .images a {
+    display: flex;
+    align-items: center;
+    padding: 0 42px;
+    height: 91px;
+    border-radius: 12px;
+}
+
+.clients .images a:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* ======================== Guides ===================== */
